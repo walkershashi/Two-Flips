@@ -1,6 +1,6 @@
 <center><h1>Two-Flips</h1></center>
 
-<p>The game is built using pygame module.The game is basically about matching the tile when clicked on it. At any time the screen will display at most two tiles that are recent. If both the flipped tiles are matched then a message <b>Mathed!!</b> is displayed and the  game continues on this fashion.</p>
+<p>The game is built using pygame module.The game is basically about matching the tile when clicked on it. At any time the screen will display at most two tiles that are recent. If both the flipped tiles are matched then a message <b>Matched!!</b> is displayed and the  game continues on this fashion.</p>
 
 <p>On the flip side the game has a counter that keeps incrementing each time the user clicks on the screen. At the start of the game the user has to enter their name and then the game starts.<p>
 
