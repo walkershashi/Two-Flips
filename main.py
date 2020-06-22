@@ -97,6 +97,10 @@ while running:
             current_images = []
 
     if total_skipped == len(tiles):
+        win_img = image.load('other_assets/win.jpg')
+        screen.blit(win_img, (0, 0))
+        display.flip()
+        sleep(0.4)
         running = False
 
 score_file = open('score_file.txt', 'a')
