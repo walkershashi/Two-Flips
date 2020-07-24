@@ -2,6 +2,7 @@ import pygame
 import game_config as gc
 from animal import Animal
 from time import sleep
+from gui import displayGui
 
 from pygame import display, event, image
 
@@ -14,7 +15,7 @@ def find_index(x, y):
 pygame.init()
 
 display.set_caption("Matchers")
-name = input("Player's Name: ")
+name = displayGui()
 cnt = 0
 
 # Return a screen which is a surface object of the desired size
